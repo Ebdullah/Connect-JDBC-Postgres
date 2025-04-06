@@ -52,31 +52,31 @@ you can set the environment variables directly within your IDE's configuration i
 ## 1. IntelliJ IDEA:
 To set environment variables in IntelliJ IDEA, follow these steps:
 
-# . Open your Project: Open your project in IntelliJ IDEA.
+*. Open your Project: Open your project in IntelliJ IDEA.*
 
-# . Open Run/Debug Configurations:
+*. Open Run/Debug Configurations:*
 
-# . On the top-right of the window, you’ll see a drop-down next to the green play button (run button). Click the Edit Configurations option.
+*. On the top-right of the window, you’ll see a drop-down next to the green play button (run button). Click the Edit Configurations option.*
 
 ## 2. Edit Configuration:
 
-# . Under Application (for running Java classes), select the configuration that you are using (like Main or Run).
+*. Under Application (for running Java classes), select the configuration that you are using (like Main or Run).*
 
-# . In the Run/Debug Configuration window, locate the Environment Variables section.
+*. In the Run/Debug Configuration window, locate the Environment Variables section.*
 
-# . Click on the Environment Variables button (the small icon with a list of environment variables).
+*. Click on the Environment Variables button (the small icon with a list of environment variables).*
 
 ## 3. Add Environment Variables:
 
-# . In the Environment Variables window, click the + icon to add new variables.
+*. In the Environment Variables window, click the + icon to add new variables.*
 
 ## 4. Add the following variables:
 
-# . DB_URL: jdbc:postgresql://localhost:{port}/{db_name}
+*. DB_URL: jdbc:postgresql://localhost:{port}/{db_name}*
 
-# . DB_USER: your_username
+*. DB_USER: your_username**
 
-# . DB_PASSWORD: your_password
+*. DB_PASSWORD: your_password*
 
 After adding the environment variables, click OK to save them.
 
